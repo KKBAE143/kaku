@@ -5,12 +5,12 @@ import { Camera, Award, Briefcase, BookOpen } from 'lucide-react';
 
 const About: React.FC = () => {
   const milestones = [
-    { year: 2010, event: 'Started photography as a hobby', icon: Camera },
-    { year: 2012, event: 'First wedding photography gig', icon: Camera },
-    { year: 2015, event: 'Opened first studio', icon: Briefcase },
-    { year: 2018, event: 'Won Best Portrait Photographer award', icon: Award },
-    { year: 2020, event: 'Expanded to commercial photography', icon: Briefcase },
-    { year: 2023, event: 'Launched online photography courses', icon: BookOpen }
+    { year: 2016, event: 'Started photography as a hobby', icon: Camera },
+    { year: 2017, event: 'First wedding photography gig', icon: Camera },
+    { year: 2018, event: 'Opened first studio', icon: Briefcase },
+    { year: 2020, event: 'Won Best Portrait Photographer award', icon: Award },
+    { year: 2022, event: 'Expanded to commercial photography', icon: Briefcase },
+    { year: 2024, event: 'Launched online photography courses', icon: BookOpen }
   ];
 
   const [ref, inView] = useInView({
